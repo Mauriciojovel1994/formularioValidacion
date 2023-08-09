@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    text-shadow: black 4px;
+    text-decoration: wavy;
+}
+
+.container{
+    background-image: url(/img/fondotienda-transformed.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset{
+    top: ;
+    width: 750px; 
+    margin:30px; 
+    padding: 10px;
+    width: fit-content;
+    background-color: transparent;
+    color: white;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: groove 3px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.invalid-feedback{
+    color: black;
+}
+
+button:hover{
+    box-shadow: 10px 10px 6px #834444;
+    top: 5px;
+    left: -5px;
+    
+}
